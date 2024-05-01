@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniQR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd4d7be32efe93e35b6f465e8eb1c71353805c6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniQR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniQR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

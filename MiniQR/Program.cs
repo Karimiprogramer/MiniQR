@@ -1,10 +1,13 @@
-﻿namespace MiniQR
+﻿using Adw;
+
+var application = Application.New("ir.karimi.miniqr", Gio.ApplicationFlags.FlagsNone);
+application.OnActivate += (sender, args) =>
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+    MainWindow window = new MainWindow();
+    window.Application = application;
+    window.Title = "MiniQR";
+    window.SetDefaultSize(360, 600);
+    window.SetResizable(false);
+    window.Show();
+};
+return application.RunWithSynchronizationContext();

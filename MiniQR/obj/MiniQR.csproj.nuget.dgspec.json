@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shahn\\Desktop\\MiniQR\\MiniQR.csproj": {}
+    "C:\\Users\\shahn\\Documents\\GitHub\\MiniQR\\MiniQR\\MiniQR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shahn\\Desktop\\MiniQR\\MiniQR.csproj": {
+    "C:\\Users\\shahn\\Documents\\GitHub\\MiniQR\\MiniQR\\MiniQR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shahn\\Desktop\\MiniQR\\MiniQR.csproj",
+        "projectUniqueName": "C:\\Users\\shahn\\Documents\\GitHub\\MiniQR\\MiniQR\\MiniQR.csproj",
         "projectName": "MiniQR",
-        "projectPath": "C:\\Users\\shahn\\Desktop\\MiniQR\\MiniQR.csproj",
+        "projectPath": "C:\\Users\\shahn\\Documents\\GitHub\\MiniQR\\MiniQR\\MiniQR.csproj",
         "packagesPath": "C:\\Users\\shahn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shahn\\Desktop\\MiniQR\\obj\\",
+        "outputPath": "C:\\Users\\shahn\\Documents\\GitHub\\MiniQR\\MiniQR\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "GirCore.Adw-1": {
+              "target": "Package",
+              "version": "[0.4.0, )"
+            },
+            "GirCore.Gtk-4.0": {
+              "target": "Package",
+              "version": "[0.4.0, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

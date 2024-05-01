@@ -1,11 +1,436 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "GirCore.Adw-1/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.Gio-2.0": "0.4.0",
+          "GirCore.Gtk-4.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/Adw-1.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Adw-1.dll": {}
+        }
+      },
+      "GirCore.Cairo-1.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.GObject-2.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/cairo-1.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/cairo-1.0.dll": {}
+        }
+      },
+      "GirCore.FreeType2-2.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.GLib-2.0": "0.4.0",
+          "GirCore.GObject-2.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/freetype2-2.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/freetype2-2.0.dll": {}
+        }
+      },
+      "GirCore.Gdk-4.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.Cairo-1.0": "0.4.0",
+          "GirCore.GdkPixbuf-2.0": "0.4.0",
+          "GirCore.Gio-2.0": "0.4.0",
+          "GirCore.Pango-1.0": "0.4.0",
+          "GirCore.PangoCairo-1.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/Gdk-4.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Gdk-4.0.dll": {}
+        }
+      },
+      "GirCore.GdkPixbuf-2.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.Gio-2.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/GdkPixbuf-2.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/GdkPixbuf-2.0.dll": {}
+        }
+      },
+      "GirCore.Gio-2.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.GObject-2.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/Gio-2.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Gio-2.0.dll": {}
+        }
+      },
+      "GirCore.GLib-2.0/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/GLib-2.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/GLib-2.0.dll": {}
+        }
+      },
+      "GirCore.GObject-2.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.GLib-2.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/GObject-2.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/GObject-2.0.dll": {}
+        }
+      },
+      "GirCore.Graphene-1.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.GObject-2.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/Graphene-1.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Graphene-1.0.dll": {}
+        }
+      },
+      "GirCore.Gsk-4.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.Gdk-4.0": "0.4.0",
+          "GirCore.Graphene-1.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/Gsk-4.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Gsk-4.0.dll": {}
+        }
+      },
+      "GirCore.Gtk-4.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.Gdk-4.0": "0.4.0",
+          "GirCore.Gsk-4.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/Gtk-4.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Gtk-4.0.dll": {}
+        }
+      },
+      "GirCore.HarfBuzz-0.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.FreeType2-2.0": "0.4.0",
+          "GirCore.GObject-2.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/HarfBuzz-0.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/HarfBuzz-0.0.dll": {}
+        }
+      },
+      "GirCore.Pango-1.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.Cairo-1.0": "0.4.0",
+          "GirCore.GObject-2.0": "0.4.0",
+          "GirCore.Gio-2.0": "0.4.0",
+          "GirCore.HarfBuzz-0.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/Pango-1.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Pango-1.0.dll": {}
+        }
+      },
+      "GirCore.PangoCairo-1.0/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "GirCore.Cairo-1.0": "0.4.0",
+          "GirCore.GObject-2.0": "0.4.0",
+          "GirCore.Pango-1.0": "0.4.0"
+        },
+        "compile": {
+          "lib/net7.0/PangoCairo-1.0.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/PangoCairo-1.0.dll": {}
+        }
+      },
+      "QRCoder/1.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QRCoder.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/QRCoder.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GirCore.Adw-1/0.4.0": {
+      "sha512": "1Qlb5FqaM0MMOqJjp8Ma3R8rThn2GCzFVRKN1tA4Mu2DAR/gUxUF/DmvJ0bt/JmL6nzKCbSN1XHsHPbmj/yCMQ==",
+      "type": "package",
+      "path": "gircore.adw-1/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.adw-1.0.4.0.nupkg.sha512",
+        "gircore.adw-1.nuspec",
+        "lib/net6.0/Adw-1.dll",
+        "lib/net7.0/Adw-1.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.Cairo-1.0/0.4.0": {
+      "sha512": "FvxTZlE92uAUyei8fXpELHZTVa9oGIYxsne6NwYBVgwJ5ox9Th7w7lAUeJlfNK5CIuFU/Sw3C5/Llk1+UF/Krg==",
+      "type": "package",
+      "path": "gircore.cairo-1.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.cairo-1.0.0.4.0.nupkg.sha512",
+        "gircore.cairo-1.0.nuspec",
+        "lib/net6.0/cairo-1.0.dll",
+        "lib/net7.0/cairo-1.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.FreeType2-2.0/0.4.0": {
+      "sha512": "PG5bz0YdAY6BZ5380fN9MSvKtTCUYx1G4X5gMz0v9HtLFMa5JG29+ZIax8v4IbDskUqpGCRe1hXM0EM5ug9xDA==",
+      "type": "package",
+      "path": "gircore.freetype2-2.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.freetype2-2.0.0.4.0.nupkg.sha512",
+        "gircore.freetype2-2.0.nuspec",
+        "lib/net6.0/freetype2-2.0.dll",
+        "lib/net7.0/freetype2-2.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.Gdk-4.0/0.4.0": {
+      "sha512": "XOOhSCQEkTgA3eydXKPDLAsWYKoey0P+YEDRqOSEpKVQWFrTq2gH+rFBzzTjnZWr7WWAkG7iDSvY/A9zrEo7iQ==",
+      "type": "package",
+      "path": "gircore.gdk-4.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.gdk-4.0.0.4.0.nupkg.sha512",
+        "gircore.gdk-4.0.nuspec",
+        "lib/net6.0/Gdk-4.0.dll",
+        "lib/net7.0/Gdk-4.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.GdkPixbuf-2.0/0.4.0": {
+      "sha512": "QQJVvvYKAAtk0m+kd9D4ruKqo9m15ENPlZexTW527Q/cdinFKmyX1vGx+WGw9jH2LEJnmE9ZM4fonucUGlZkXg==",
+      "type": "package",
+      "path": "gircore.gdkpixbuf-2.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.gdkpixbuf-2.0.0.4.0.nupkg.sha512",
+        "gircore.gdkpixbuf-2.0.nuspec",
+        "lib/net6.0/GdkPixbuf-2.0.dll",
+        "lib/net7.0/GdkPixbuf-2.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.Gio-2.0/0.4.0": {
+      "sha512": "r6I37A2I2tlhl3OY80fJ1/8hd5OL/4FHC4AV8ahmmoQ98o6qCQkz2P0zJRiYUGOTkY2jUkPBNeCzQXJBPL1EaA==",
+      "type": "package",
+      "path": "gircore.gio-2.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.gio-2.0.0.4.0.nupkg.sha512",
+        "gircore.gio-2.0.nuspec",
+        "lib/net6.0/Gio-2.0.dll",
+        "lib/net7.0/Gio-2.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.GLib-2.0/0.4.0": {
+      "sha512": "jkhVcyG64jCJHDeLgF+4e4affQ26oHupRMfcvecevlMOQo6r3AGpGip9oUU+UA4vQh923H4DTCYWWIpYu+dPnA==",
+      "type": "package",
+      "path": "gircore.glib-2.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.glib-2.0.0.4.0.nupkg.sha512",
+        "gircore.glib-2.0.nuspec",
+        "lib/net6.0/GLib-2.0.dll",
+        "lib/net7.0/GLib-2.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.GObject-2.0/0.4.0": {
+      "sha512": "6kA4L/tCBSaDuhiZdBH8DgjAFzZhjCKcJuSe6gbxjrdC1wSxAoD0nDLykeA29+KMk9SclPxrhpeXsxqmbWTG2g==",
+      "type": "package",
+      "path": "gircore.gobject-2.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.gobject-2.0.0.4.0.nupkg.sha512",
+        "gircore.gobject-2.0.nuspec",
+        "lib/net6.0/GObject-2.0.dll",
+        "lib/net7.0/GObject-2.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.Graphene-1.0/0.4.0": {
+      "sha512": "qjMD9n4B7s0JY267i8+mqGLwPndwWrqv1+pw6SJzf1NXN0uFSGpqNw3lsDtToT4AEvjIe2wcw5m/O5L2dM778w==",
+      "type": "package",
+      "path": "gircore.graphene-1.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.graphene-1.0.0.4.0.nupkg.sha512",
+        "gircore.graphene-1.0.nuspec",
+        "lib/net6.0/Graphene-1.0.dll",
+        "lib/net7.0/Graphene-1.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.Gsk-4.0/0.4.0": {
+      "sha512": "Fhk+AVsd39FlFN4L14jXiuushghLeJAnpzn+yNHWnYCTbwLkVmt9xt33WaYqNv/PwXSV7IP/TqvfFxX0jpP4RA==",
+      "type": "package",
+      "path": "gircore.gsk-4.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.gsk-4.0.0.4.0.nupkg.sha512",
+        "gircore.gsk-4.0.nuspec",
+        "lib/net6.0/Gsk-4.0.dll",
+        "lib/net7.0/Gsk-4.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.Gtk-4.0/0.4.0": {
+      "sha512": "cJmNCp3KzCDr77uOug/5yI/dAJcb370IucPAzmKVNIgW2XWQJovluVCbyXNfo2JLwx8Pcc1tPwsJgeOeHq+hAQ==",
+      "type": "package",
+      "path": "gircore.gtk-4.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.gtk-4.0.0.4.0.nupkg.sha512",
+        "gircore.gtk-4.0.nuspec",
+        "lib/net6.0/Gtk-4.0.dll",
+        "lib/net7.0/Gtk-4.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.HarfBuzz-0.0/0.4.0": {
+      "sha512": "tvhdazCrLROynj4UhtH1kfbGCIpU4lMECXkZhLn3kJHhYcyva7vK9ogHJtNjGVp8pDN2ik9ePKHtg96ThHrdQw==",
+      "type": "package",
+      "path": "gircore.harfbuzz-0.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.harfbuzz-0.0.0.4.0.nupkg.sha512",
+        "gircore.harfbuzz-0.0.nuspec",
+        "lib/net6.0/HarfBuzz-0.0.dll",
+        "lib/net7.0/HarfBuzz-0.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.Pango-1.0/0.4.0": {
+      "sha512": "1d829AYb60msVcVWA6ujrqVcl5qgPltLc+C54TOf9PpOPORiMi9o4BnGOIZGECMKmHZAiOl+vjY0/oQ0PheN4g==",
+      "type": "package",
+      "path": "gircore.pango-1.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.pango-1.0.0.4.0.nupkg.sha512",
+        "gircore.pango-1.0.nuspec",
+        "lib/net6.0/Pango-1.0.dll",
+        "lib/net7.0/Pango-1.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "GirCore.PangoCairo-1.0/0.4.0": {
+      "sha512": "t+RUYSa8dNx1xjp/uH8zCmnRgWLZw7hc5pDxghOC+U9ZHJ/MVbnVVIVuqMg6IIq+TE4OZzKD6NrxR2SlQ/kK6w==",
+      "type": "package",
+      "path": "gircore.pangocairo-1.0/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NugetReadme.md",
+        "gircore.pangocairo-1.0.0.4.0.nupkg.sha512",
+        "gircore.pangocairo-1.0.nuspec",
+        "lib/net6.0/PangoCairo-1.0.dll",
+        "lib/net7.0/PangoCairo-1.0.dll",
+        "logo-128.png"
+      ]
+    },
+    "QRCoder/1.5.1": {
+      "sha512": "+v8VntytuDw4R1nCNJkSA7SWSizJoQfiByV1+nUjOwrDZEuaxefG73aKuuQjpaGtoZ7qlXpRbK70C23m1h3WLw==",
+      "type": "package",
+      "path": "qrcoder/1.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/QRCoder.dll",
+        "lib/net40/QRCoder.dll",
+        "lib/net5.0-windows7.0/QRCoder.dll",
+        "lib/net5.0/QRCoder.dll",
+        "lib/net6.0-windows7.0/QRCoder.dll",
+        "lib/net6.0/QRCoder.dll",
+        "lib/netstandard1.3/QRCoder.dll",
+        "lib/netstandard2.0/QRCoder.dll",
+        "nuget-icon.png",
+        "nuget-readme.md",
+        "qrcoder.1.5.1.nupkg.sha512",
+        "qrcoder.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "GirCore.Adw-1 >= 0.4.0",
+      "GirCore.Gtk-4.0 >= 0.4.0",
+      "QRCoder >= 1.5.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\shahn\\.nuget\\packages\\": {},
@@ -14,11 +439,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shahn\\Desktop\\MiniQR\\MiniQR.csproj",
+      "projectUniqueName": "C:\\Users\\shahn\\Documents\\GitHub\\MiniQR\\MiniQR\\MiniQR.csproj",
       "projectName": "MiniQR",
-      "projectPath": "C:\\Users\\shahn\\Desktop\\MiniQR\\MiniQR.csproj",
+      "projectPath": "C:\\Users\\shahn\\Documents\\GitHub\\MiniQR\\MiniQR\\MiniQR.csproj",
       "packagesPath": "C:\\Users\\shahn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shahn\\Desktop\\MiniQR\\obj\\",
+      "outputPath": "C:\\Users\\shahn\\Documents\\GitHub\\MiniQR\\MiniQR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +475,20 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "GirCore.Adw-1": {
+            "target": "Package",
+            "version": "[0.4.0, )"
+          },
+          "GirCore.Gtk-4.0": {
+            "target": "Package",
+            "version": "[0.4.0, )"
+          },
+          "QRCoder": {
+            "target": "Package",
+            "version": "[1.5.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
